@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+  </head>
+ 
+  <body>   
+    <p id="text">Open the console and type:</p>
+    <code>
+    var a = new dart.lib.A();
+    a.name;
+    </code>
+    <script type="application/dart" src="index.dart"></script>
+    <script src="packages/js/interop.js"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+name: lib
+description: A sample Dart lib published to JS
+dependencies:
+  browser:
+  js:
+    git: git://github.com/dart-lang/js-interop.git
+transformers:
+- js
+- js/initializer
