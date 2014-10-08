@@ -4,7 +4,7 @@ dart-js-interop-example
 A basic example of publishing a library to JS using the beta JS interop stuff
 
 # Try it out
-- ReReq: Have dart installed
+- PreReq: Have dart installed
 - Clone the repo
 - cd to the repo
 - `pub get` to get dependencies
